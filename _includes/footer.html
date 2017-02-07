@@ -1,0 +1,50 @@
+<footer>
+  <div class="container">
+    <div class="row biography">
+      <div class="col-sm-4">
+        <h2>who am i</h2>
+        <p>{{ site.biography }}</p>
+      </div>
+      <div class="col-sm-4">
+        <h2>what is this</h2>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="col-sm-4">
+        <h2>where am i</h2>
+          {% if site.github_username %}
+          <div>
+            <a href="https://github.com/{{ site.github_username }}">
+              <span class="username">Github//{{ site.github_username }}</span>
+            </a>
+          </div>
+          {% endif %}
+          {% if site.weibo_username %}
+          <div>
+            <a href="https://weibo.com/{{ site.weibo_username }}">
+              <span class="username">Weibo//{{ site.weibo_username }}</span>
+            </a>
+          </div>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <div>
+            <a href="https://id.linkedin.com/in/{{ site.linkedin_username }}">
+              <span class="username">linkedin//{{ site.linkedin_username }}</span>
+            </a>
+          </div>
+          {% endif %}
+          {% if site.facebook_username %}
+          <div>
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <span class="username">facebook//{{ site.facebook_username }}</span>
+            </a>
+          </div>
+          {% endif %}
+      </div>
+    </div>
+    {% if site.colophon %}
+    <div class="row copyright">
+      <center>{{ site.colophon }}</center>
+    </div>
+    {% endif %}
+  </div>
+</footer>
