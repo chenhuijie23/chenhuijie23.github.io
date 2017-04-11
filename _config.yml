@@ -1,9 +1,9 @@
 # Site settings
-title: "关于数据分析、经济金融<br/>以及哲学杂谈"
+title: "飞碟说"
 author: "JetChan"
-description: "一个独立博客,主要分享和记录一些有关数据分析、经济相关报告、个人杂谈以及哲学等内容."
+description: "一个独立博客"
 keywords: "数据分析, 可视化, 图表, 报表, 大数据, 数据挖掘, 哲学, 金融, 经济, R语言, Python, 分析工具, excel, 数据库, Mysql"
-biography: "数据分析与可视化爱好者."
+biography: "白日梦想家"
 colophon: "© MMXIII — MMXVI by JetChan.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
 
 baseurl: ""
